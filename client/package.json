@@ -5,13 +5,16 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-markdown": "^9.0.1",
+    "react-scripts": "^5.0.1",
+    "react-syntax-highlighter": "^15.5.0"
   },
   "scripts": {
     "start": "cross-env PORT=%npm_config_port% react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src"
   },
   "browserslist": {
     "production": [
@@ -26,6 +29,7 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "eslint": "^8.56.0"
   }
 }
